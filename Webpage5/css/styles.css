@@ -1,0 +1,419 @@
+/*Ananthu
+time:10 am
+date:13-11-2021*/
+
+/*---section1---*/
+.section1{
+	display: flex;
+	background-color: rgba(0,0,0,.7);
+	color: white;
+}
+
+.top1{
+	padding: 10px;
+}
+.top2{
+	padding-left: 1100px;
+	padding-top: 10px;
+}
+
+
+/*---section2---*/
+.section2{
+	background-color: rgba(0,0,0,0.6);
+	height: 7vh;
+	display: flex;
+}
+
+.top3{
+	padding: 13px;
+	padding-left:90px;
+}
+
+.home{
+	padding-left:700px;
+	padding-top: 13px;
+}
+
+.home a{ 
+	padding: 6px;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*---section3---*/
+.section3{
+	background-image: url(../img/intro-background.jpg);
+	height: 85vh;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	
+}
+.welcome{
+	padding-top: 280px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+	height: 35vh;
+}
+h2{
+	font-size: 50px;
+	height: 20px;
+}
+.welcomeimg{
+	background-image: url(../img/intro-background.jpg);
+	height: 30vh;	
+}
+.welcomeimg1{
+	background-color: rgba(0,0,0,0.5);
+	height: 10vh;
+}
+
+/*---section4---*/
+.section4{
+	background-image: url(../img/header-pattern-150.png);
+	height: 155vh;
+	padding: 30px;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.flex div{
+	background-color: rgba(0,0,0,0.5);
+	font-size: 35px;
+	width: 15%;
+	margin: 10px 10px;
+	padding: 40px;
+	color: white;
+	border-radius: 25px;
+}
+.flex i{
+	justify-content: center;
+	padding-left: 70px;
+}
+.section41 h4{
+	text-align: center;
+}
+.section41{
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+h5{
+	border: 1px solid red;
+	width: 115px;
+	padding: 8px;
+	text-align: center;
+	padding-left: 35px;
+	padding-right: 35px;
+	
+}
+
+h5 a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	
+}
+
+
+.section5{
+	padding: 10px;
+}
+.click{
+	display: flex;
+	background-color: rgba(0,0,0,0.4);
+	padding: 30px;
+	color: white;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-left: 250px;
+}
+.click2{
+	padding-left:150px;
+}
+.click1{
+	padding: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	background-color: green;
+	justify-content: center;
+	
+}
+
+.click1 a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+.price{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	height: 70vh;
+}
+.price1{
+	display: flex;
+	justify-content: center;
+}
+.price2{
+	width: 25%;
+	text-align: left;
+}
+.signup{
+	background-color: rgba(103,128,159,0.2);
+	border: 10px solid white;
+	font-size: 20px;
+	width: 20%;
+	margin: 10px 10px;
+	padding: 5px;
+	padding-bottom: 25px;
+	color: white;
+	align-content:  center;
+}
+.click5{
+	padding-left: 80px;
+}
+.click4{
+	background-color:  grey;
+	padding-left: 5px;
+	padding-top: 10px;
+	height: 35px;
+	width: 80px;
+
+}
+.click4 a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+			
+}
+
+
+.section7 h3{
+	padding-left: 50px;
+	font-size: 20px;
+}
+.works{
+	display: flex;
+	justify-content: center;
+}
+.works img{
+	height: 40vh;
+	width: 22%;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+
+.section8{
+    background-image: url(../img/header-pattern-150.png);
+	height: 50vh;
+	display: flex;
+	color: white;
+
+}
+.demo{
+	font-size: 20px;
+	width: 30%; 
+	padding-left: 30px;
+}
+.demo h3{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.links1{
+	padding-left: 60px;
+}
+.links{
+	padding-top: 20px;
+}
+.links a{
+	padding: 0px;
+	text-decoration: none;
+	color: white;
+}
+.links1 h3{
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+.team h3{
+	padding-left: 240px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+.team1{
+	display: flex;
+	justify-content: center;
+	padding-left: 200px;
+}
+.team1 img{
+	height: 25vh;
+	width: 25%;
+	padding: 10px;
+	
+}
+
+.section9{
+	background-color: rgba(0,0,0,.8);
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/*---mobile---*/
+@media only screen and (max-width: 576px)
+{
+
+	.top2{
+		padding-left: 150px;	
+}
+
+.top3{
+	padding-left: 10px;
+}
+.section2{
+	height: 8vh;
+}
+.home{
+	padding-left: 15px;
+}
+.section3{
+	height: 30vh;
+	background-size: cover;	
+}
+.welcome{
+	font-size: 15px;
+	padding-top: 25px;
+}
+h2{
+	font-size: 30px;
+	height: 10px;
+}
+.section4{
+	height:400vh;	
+}
+.flex{
+	
+	flex-direction: column;
+}
+.flex div{
+	font-size: 15px;
+	width: 60%;
+	padding-left: 50px;	
+}
+.flex i{
+	padding-left: 60px;
+	font-size: 50px;
+}
+.section41 h4{
+	padding-left: 0px;
+}
+
+h5{
+	width: 120px;
+	padding: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.click{
+	flex-direction: column;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.click2{
+	padding-left:0px;
+	padding-top: 10px;
+}
+.click1{
+	padding: 10px;
+	width: 130px;	
+}
+
+.click1 a{
+	font-size: 20px;
+}
+
+.price{
+	font-size: 20px;
+	height: 20vh;
+}
+.price1{
+	flex-direction: column;
+}
+.price2{
+	width: 100%;
+	text-align: center;
+}
+.signup{
+	font-size: 20px;
+	width: 240px;
+}
+
+.section7 h3{
+	padding-left: 90px;
+	font-size: 30px;
+}
+.works{
+	flex-direction: column;
+}
+.works img{
+	height: 30vh;
+	width: 250px;
+	padding-left: 50px;
+}
+
+.section8{
+	flex-direction: column;
+	height: 110vh;
+}
+.demo{
+
+	text-align: center;
+	width: 250px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+.links1{
+	background-color: orange;
+	text-align: center;
+	width: 285px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 0px;
+}
+
+.team {
+
+	text-align: center;
+	width: 200px;
+	padding-left: 10px;
+}
+.team1{
+	padding-left: 130px;
+	
+}
+.team1 img{
+	height: 20vh;
+	width: 100px;
+	padding: 5px;	
+}
+.team h3{
+	padding-left: 130px;
+}
+.section9{
+	padding-left: 10px;
+	height: 10vh;
+}
+}
